@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+aeneas = { git = 'https://github.com/valrus/aeneas.git', ref = 'master' }
+doit = "*"
+lyricsgenius = "*"
+mutagen = ">=1.45.1"
+pydub = ">=0.25.1"
+spleeter = ">=2.2.0"
+tensorflow_cpu = ">=2.3.0"
+youtube_dl = "*"
+google_cloud_storage = "*"
+
+[dev-packages]
+moviepy = "*"
+pipenv = "*"
+ipython = "*"
+
+[requires]
+python_version = "3.8"
